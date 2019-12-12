@@ -11,7 +11,7 @@
   },
   "main": "./dist/angular-translate.js",
   "devDependencies": {
-    "angular": "~1.2.26",
+    "angular": "https://github.com/SQUEEZE-Inc/angular.js.git#patch/v1.6.10",
     "angular-mocks": "~1.2.26",
     "angular-cookies": "~1.2.26",
     "angular-sanitize": "~1.2.26",

@@ -101,6 +101,6 @@
     "tar.gz": "^1.0.5"
   },
   "dependencies": {
-    "angular": ">=1.2.26 <=1.7"
+    "angular": "git+https://github.com/SQUEEZE-Inc/angular.js.git#patch/v1.6.10"
   }
 }
