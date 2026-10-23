@@ -414,19 +414,19 @@ module.exports = function (grunt) {
         }
       },
 
-      // Runs standard tests in headless PhantomJS
+      // Runs standard tests in headless Chrome
       'headless-unit': {
         options: {
           configFile: 'karma.unit.conf.js',
           singleRun: true,
-          browsers: ['PhantomJS']
+          browsers: ['ChromeHeadless']
         }
       },
       'headless-midway': {
         options: {
           configFile: 'karma.midway.conf.js',
           singleRun: true,
-          browsers: ['PhantomJS']
+          browsers: ['ChromeHeadless']
         }
       },
 
